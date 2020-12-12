@@ -1,7 +1,15 @@
 .cards__item {
-    padding-left: 0;
-    margin-left: 0;
-    list-style-type: none;
-    border: 5px solid red;
-    min-height: 50px;
+
+    /*position: relative;
+    display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    list-style: none;
+    width: 240px;
+    margin: 0;
+    padding: 0;
 }
+
+.cards__item:last-of-type{
+    margin-right: 340px;
+  }

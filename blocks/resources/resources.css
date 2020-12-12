@@ -1,4 +1,6 @@
 .resources {
-    border: 5px solid red;
-    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 100px 0 217px;
 }
